@@ -1,10 +1,10 @@
-package pucrs.java.maven.gatos;
+package pucrs.java.maven.cats;
 
 /**
- * Hello world!
+ * The class GatosApp is pet clinic
  *
  */
-public class GatosApp 
+public class CatsApp 
 {
     public static void main( String[] args )
     {

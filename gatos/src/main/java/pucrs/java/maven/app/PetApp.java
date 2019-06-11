@@ -1,4 +1,8 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.app;
+
+import pucrs.java.maven.framework.PetCatalog;
+import pucrs.java.maven.model.Cat;
+import pucrs.java.maven.model.Dog;
 
 /**
  * The class GatosApp is pet clinic

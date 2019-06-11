@@ -1,4 +1,4 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.framework;
 
 public abstract class Pet {
 

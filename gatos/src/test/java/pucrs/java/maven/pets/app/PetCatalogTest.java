@@ -1,8 +1,11 @@
-package pucrs.java.maven.cats;
+package pucrs.java.maven.pets.app;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import pucrs.java.maven.framework.PetCatalog;
+import pucrs.java.maven.model.Cat;
 
 public class PetCatalogTest {
 

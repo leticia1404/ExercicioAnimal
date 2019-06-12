@@ -1,11 +1,11 @@
-package pucrs.java.maven.pets.app;
+package pucrs.java.maven.pets.framework;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import pucrs.java.maven.framework.PetCatalog;
-import pucrs.java.maven.model.Cat;
+import pucrs.java.maven.pets.framework.PetCatalog;
+import pucrs.java.maven.pets.model.Cat;
 
 public class PetCatalogTest {
 
@@ -18,7 +18,7 @@ public class PetCatalogTest {
 	@Test
 	public void testAddGarfielsIntoCatalog() {
 		PetCatalog cats = new PetCatalog();
-		Cat garfield = new Cat("Garfield");
+		Cat garfield = new Cat("Garfield",Pet.Gender.MALE);
 		cats.add(garfield);
 		
 	}
